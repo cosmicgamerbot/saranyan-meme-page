@@ -3,200 +3,227 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Saranyan Meme Central - The Ultimate Meme Hub!</title>
+    <title>🌟 SARANYAN MEME CENTRAL - TOTALLY RAD 90s STYLE! 🌟</title>
     <style>
         body {
-            font-family: 'Comic Sans MS', cursive, sans-serif;
-            background: linear-gradient(45deg, #ff6b6b, #4ecdc4, #45b7d1, #96ceb4);
-            background-size: 400% 400%;
-            animation: gradientShift 8s ease infinite;
+            font-family: 'Comic Sans MS', 'Times New Roman', serif;
+            background: #00ffff;
+            background-image: 
+                radial-gradient(circle, #ff0080 20%, transparent 20%),
+                radial-gradient(circle, #ffff00 20%, transparent 20%);
+            background-size: 30px 30px;
+            background-position: 0 0, 15px 15px;
             margin: 0;
-            padding: 20px;
-            text-align: center;
-        }
-        
-        @keyframes gradientShift {
-            0% { background-position: 0% 50%; }
-            50% { background-position: 100% 50%; }
-            100% { background-position: 0% 50%; }
+            padding: 10px;
+            overflow-x: auto;
         }
         
         .container {
-            max-width: 800px;
+            background: yellow;
+            border: 5px solid #ff0080;
             margin: 0 auto;
-            background: rgba(255, 255, 255, 0.9);
-            border-radius: 20px;
-            padding: 30px;
-            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+            max-width: 800px;
+            padding: 20px;
         }
         
         h1 {
+            color: red;
+            text-align: center;
             font-size: 3em;
-            color: #2c3e50;
-            margin-bottom: 10px;
-            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+            text-shadow: 3px 3px 0px blue;
+            animation: blink 1s linear infinite;
         }
         
-        .subtitle {
+        @keyframes blink {
+            0%, 50% { opacity: 1; }
+            51%, 100% { opacity: 0.3; }
+        }
+        
+        .marquee {
+            background: #ff0080;
+            color: yellow;
+            padding: 10px;
+            border: 3px solid blue;
+            margin: 20px 0;
             font-size: 1.5em;
-            color: #e74c3c;
-            margin-bottom: 30px;
             font-weight: bold;
         }
         
-        .meme-section {
-            margin: 40px 0;
-            padding: 20px;
-            background: #f8f9fa;
-            border-radius: 15px;
-            border-left: 5px solid #3498db;
-        }
-        
-        .lore-section {
-            margin: 40px 0;
-            padding: 20px;
-            background: #fff8e1;
-            border-radius: 15px;
-            border-left: 5px solid #ff9800;
-        }
-        
-        .meme-placeholder {
-            width: 100%;
-            height: 300px;
-            background: #ecf0f1;
-            border: 3px dashed #bdc3c7;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            font-size: 1.2em;
-            color: #7f8c8d;
-            border-radius: 10px;
+        hr {
+            height: 5px;
+            background: linear-gradient(45deg, red, blue, #ff0080, yellow);
+            border: none;
             margin: 20px 0;
+        }
+        
+        .section {
+            background: #ffff80;
+            border: 3px dashed #ff0080;
+            margin: 20px 0;
+            padding: 15px;
+        }
+        
+        .section h2 {
+            color: blue;
+            font-size: 2.5em;
+            text-align: center;
+            margin: 0 0 15px 0;
+        }
+        
+        .button90s {
+            background: linear-gradient(45deg, #ff0080, #ffff00);
+            border: 3px outset #ff0080;
+            color: blue;
+            font-weight: bold;
+            font-size: 1.2em;
+            padding: 10px 20px;
+            margin: 5px;
+            cursor: pointer;
+            font-family: 'Comic Sans MS', serif;
+        }
+        
+        .button90s:hover {
+            background: linear-gradient(45deg, #ffff00, #ff0080);
+            border: 3px inset #ff0080;
         }
         
         .meme-item {
-            margin: 20px 0;
-            padding: 15px;
             background: white;
-            border-radius: 10px;
-            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-        }
-        
-        .meme-item img {
-            max-width: 100%;
-            height: auto;
-            border-radius: 8px;
-            margin-bottom: 10px;
+            border: 2px solid red;
+            margin: 15px 0;
+            padding: 10px;
+            text-align: center;
         }
         
         .meme-caption {
-            font-size: 1.1em;
-            color: #2c3e50;
+            color: #ff0080;
             font-weight: bold;
+            font-size: 1.3em;
             margin-top: 10px;
         }
         
-        .fun-fact {
-            background: #fff3cd;
-            border: 2px solid #ffeaa7;
-            padding: 15px;
-            border-radius: 10px;
-            margin: 20px 0;
-            font-style: italic;
+        .rainbow-text {
+            background: linear-gradient(45deg, red, orange, yellow, green, blue, indigo, violet);
+            background-size: 300% 300%;
+            -webkit-background-clip: text;
+            background-clip: text;
+            -webkit-text-fill-color: transparent;
+            animation: rainbow 2s ease-in-out infinite;
         }
         
-        .emoji {
+        @keyframes rainbow {
+            0%, 100% { background-position: 0% 50%; }
+            50% { background-position: 100% 50%; }
+        }
+        
+        .footer90s {
+            background: #ff0080;
+            color: yellow;
+            text-align: center;
+            padding: 20px;
+            border: 5px double yellow;
+            margin-top: 30px;
+            font-size: 1.2em;
+        }
+        
+        .animated-gif {
             font-size: 2em;
-            margin: 0 10px;
+            animation: bounce 1s infinite;
         }
         
-        .coming-soon {
-            background: #d1ecf1;
-            border: 2px solid #bee5eb;
-            padding: 20px;
-            border-radius: 10px;
-            margin: 20px 0;
-        }
-        
-        footer {
-            margin-top: 40px;
-            padding: 20px;
-            background: #34495e;
-            color: white;
-            border-radius: 10px;
+        @keyframes bounce {
+            0%, 20%, 50%, 80%, 100% { transform: translateY(0); }
+            40% { transform: translateY(-10px); }
+            60% { transform: translateY(-5px); }
         }
     </style>
 </head>
 <body>
     <div class="container">
-        <h1>🎭 Saranyan Meme Central 🎭</h1>
-        <p class="subtitle">The Ultimate Hub for All Things Saranyan!</p>
+        <h1>🌟 SARANYAN MEME CENTRAL 🌟</h1>
         
-        <div class="lore-section">
-            <h2>📜 The Lore of Saranyan Meme Central 📜</h2>
-            <p>
-Long ago, in the digital wilds, the legend of Saranyan was born—from epic jokes in chatrooms to viral memes. Saranyan's wit carved a path through the internet, inspiring laughter and joy wherever his name was mentioned. This page stands as the ultimate tribute to Saranyan: a shrine for memes, jokes, and endless fun!
+        <div class="marquee">
+            <marquee>🚀 Welcome to Saranyan Meme Central - 90s Vibe! 🚀 TOTALLY RADICAL! 🔥 Best viewed in Netscape Navigator! 🔥</marquee>
+        </div>
+        
+        <hr>
+        
+        <div class="section">
+            <h2 class="rainbow-text">📼 THE LEGEND OF SARANYAN 📼</h2>
+            <p style="color: blue; font-size: 1.3em; font-weight: bold;">
+                🎮 BEHOLD! The most AWESOME dude on the World Wide Web! 🎮<br>
+                Saranyan's memes are so RADICAL they crash Netscape! <span class="animated-gif">😎</span><br>
+                <blink style="color: red;">*** CERTIFIED COOL SINCE 1995! ***</blink>
             </p>
         </div>
         
-        <div class="meme-section">
-            <h2>🔥 Featured Memes 🔥</h2>
-            <div class="meme-placeholder">
-                <span>Epic Saranyan memes coming soon! <span class="emoji">😂</span></span>
-            </div>
-            <div class="fun-fact">
-                <strong>Fun Fact:</strong> Did you know? Saranyan's sense of humor is so legendary, it deserves its own meme category!
-            </div>
-        </div>
+        <hr>
         
-        <div class="meme-section">
-            <h2>🔥 Meme Showcase 🔥</h2>
+        <div class="section">
+            <h2 style="color: #ff0080;">🔥 EPIC MEME ZONE 🔥</h2>
+            
             <div class="meme-item">
-                <img src="https://i.imgflip.com/30b1gx.jpg" alt="Meme 1">
-                <div class="meme-caption">When you realize Saranyan is the source of every legendary meme.</div>
+                <div style="background: #ffccff; height: 200px; display: flex; align-items: center; justify-content: center; border: 2px dashed blue;">
+                    <span style="font-size: 2em;">🖼️ EPIC SARANYAN MEME #1 🖼️</span>
+                </div>
+                <div class="meme-caption">When Saranyan drops the HOTTEST meme of 1999! <span class="animated-gif">🔥</span></div>
             </div>
+            
             <div class="meme-item">
-                <img src="https://i.imgflip.com/5ehs.jpg" alt="Meme 2">
-                <div class="meme-caption">Saranyan's reaction when someone mispronounces his name.</div>
+                <div style="background: #ccffcc; height: 200px; display: flex; align-items: center; justify-content: center; border: 2px dashed red;">
+                    <span style="font-size: 2em;">📸 LEGENDARY SARANYAN MOMENT 📸</span>
+                </div>
+                <div class="meme-caption">Saranyan's face when someone uses Internet Explorer <span class="animated-gif">😂</span></div>
             </div>
+            
             <div class="meme-item">
-                <img src="https://i.imgflip.com/1bij.jpg" alt="Meme 3">
-                <div class="meme-caption">'Meme Central wouldn't exist without Saranyan!'</div>
+                <div style="background: #ffffcc; height: 200px; display: flex; align-items: center; justify-content: center; border: 2px dashed #ff0080;">
+                    <span style="font-size: 2em;">🎭 SARANYAN CLASSIC 🎭</span>
+                </div>
+                <div class="meme-caption">The meme that broke the internet... before YouTube existed! <span class="animated-gif">💥</span></div>
             </div>
         </div>
         
-        <div class="meme-section">
-            <h2>🎬 Meme Gallery 🎬</h2>
-            <div class="meme-placeholder">
-                <span>Hilarious moments and inside jokes <span class="emoji">🤣</span></span>
-            </div>
-            <div class="meme-placeholder">
-                <span>Classic Saranyan expressions <span class="emoji">😄</span></span>
-            </div>
+        <hr>
+        
+        <div class="section">
+            <h2 style="color: red;">💿 INTERACTIVE ZONE 💿</h2>
+            <center>
+                <button class="button90s" onclick="alert('TOTALLY RADICAL DUDE!');">CLICK FOR AWESOMENESS!</button>
+                <button class="button90s" onclick="alert('Saranyan says: You are now 50% cooler!');">SARANYAN POWER!</button>
+                <button class="button90s" onclick="alert('This website is Y2K compliant!');">90s VIBES!</button>
+            </center>
         </div>
         
-        <div class="meme-section">
-            <h2>💭 Quote of the Day 💭</h2>
-            <blockquote style="font-size: 1.3em; color: #2c3e50; font-style: italic;">
-                "Life is better when you're laughing with Saranyan!"
-            </blockquote>
+        <hr>
+        
+        <div class="section">
+            <h2 class="rainbow-text">🎪 RANDOM AWESOMENESS 🎪</h2>
+            <p style="color: #ff0080; font-size: 1.4em; text-align: center;">
+                <blink>*** UNDER CONSTRUCTION ***</blink><br>
+                <span class="animated-gif">🚧</span> Adding more RADICAL content soon! <span class="animated-gif">🚧</span><br>
+                <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" alt="Cool animated GIF" width="50" height="20" style="background: linear-gradient(45deg, red, yellow, blue); border: 1px solid black;">
+            </p>
         </div>
         
-        <div class="coming-soon">
-            <h2>🚀 Coming Soon 🚀</h2>
-            <ul style="text-align: left; display: inline-block;">
-                <li>Interactive meme generator</li>
-                <li>Saranyan joke database</li>
-                <li>Community meme submissions</li>
-                <li>Daily dose of Saranyan humor</li>
-                <li>Meme contests and challenges</li>
-            </ul>
-        </div>
+        <hr>
         
-        <footer>
-            <p>🎉 Made with lots of laughs and appreciation for Saranyan! 🎉</p>
-            <p>© 2025 Saranyan Meme Central - Spreading joy, one meme at a time!</p>
-        </footer>
+        <div class="footer90s">
+            <p><strong>🌈 SARANYAN MEME CENTRAL 🌈</strong></p>
+            <p>Made with ❤️ and MAXIMUM 90s ENERGY! <span class="animated-gif">⚡</span></p>
+            <p><blink>© 1999 - FOREVER COOL!</blink></p>
+            <p style="font-size: 0.8em;">Best viewed at 640x480 resolution • Optimized for dial-up!</p>
+        </div>
     </div>
+    
+    <script>
+        // Add some 90s JavaScript magic!
+        setInterval(function() {
+            document.body.style.backgroundColor = 
+                document.body.style.backgroundColor === 'rgb(0, 255, 255)' ? '#ffff00' : '#00ffff';
+        }, 3000);
+        
+        console.log('Welcome to the RADICAL 90s web experience!');
+    </script>
 </body>
 </html>
